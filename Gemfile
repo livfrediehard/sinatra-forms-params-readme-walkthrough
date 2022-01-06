@@ -6,7 +6,7 @@ gem 'thin'
 gem 'shotgun'
 gem 'require_all'
 
-group :test do
+group :test, :development do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
